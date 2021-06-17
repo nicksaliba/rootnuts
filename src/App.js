@@ -38,6 +38,7 @@ const App = () => {
     }
     
   };
+
   const editRow = (transaction) => {
     setEditing(true);
     setcurrentTransaction(transaction)
@@ -83,9 +84,10 @@ const App = () => {
 						</Fragment>
 					) : (
 						<Fragment>
-							<h2>Add Transaction</h2>
+							<h2>Add a new Transaction</h2>
 							<AddTransactionForm addTransaction={addTransation} />
 						</Fragment>
+            
 					)}
 				</div>
     </div>

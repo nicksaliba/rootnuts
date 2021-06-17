@@ -34,7 +34,7 @@ const AddTransactionForm = (props) => {
       </select>
       <label>Weight</label>
       <input type="text" name="weight" value={transaction.weight} onChange={handleInputChange}/>
-      <button>Add New Transaction</button>
+      <button>Add </button>       <button> Cancel</button>
     </form>
   );
 };
