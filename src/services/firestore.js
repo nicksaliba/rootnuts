@@ -47,7 +47,10 @@ function generateAutoId() {
   }
   return autoId;
 }
-
+/**
+ *  Takes and id and deleted the transaction
+ * @param {*} id 
+ */
 async function deleteTrans(id){
     const res = await pineRef.doc(id).delete();
 }
